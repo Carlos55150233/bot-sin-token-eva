@@ -36,21 +36,21 @@ class JsonDatabase(object):
                      'isadmin': 0,
                      'zips': 399,
                      'uploadtype':'calendar',
-                     'proxy':'socks5://jKkIgDKEKJEFKFIGCFNGJJLFFJKJGJJIYEgGmIjEYFeFiDeJzDjGBDYFzKhHREKGHKJGCKDH',
+                     'proxy':'',
                      'tokenize':0,
                      'existe':1}
 
     def create_admin(self,name):
         self.items[name] = {'dir': '',
                      'cloudtype': 'moodle',
-                     'moodle_host': 'https://eva.uo.edu.cu/',
+                     'moodle_host': 'https://moodle.uclv.edu.cu/',
                      'moodle_repo_id': 4,
-                     'moodle_user': 'keyla.maranillo',
-                     'moodle_password': 'Rusia3.0',
+                     'moodle_user': '',
+                     'moodle_password': '',
                      'isadmin': 1,
-                     'zips': 100,
+                     'zips': 399,
                      'uploadtype':'calendar',
-                     'proxy':'socks5://jKkIgDKEKJEFKFIGCFNGJJLFFJKJGJJIYEgGmIjEYFeFiDeJzDjGBDYFzKhHREKGHKJGCKDH',
+                     'proxy':'',
                      'tokenize':0}
 
     def remove(self,name):
